@@ -4,6 +4,8 @@
 }
 body {
   font-family: Roboto;
+  max-width: 1024px;
+margin:0 auto;
 }
 .verde {
   height: 30px;
@@ -49,6 +51,7 @@ h2 {
   margin-top: 73px;
   text-align: center;
   font-size: 30px;
+  margin-bottom: 10px;
 }
 p {
   text-align: justify;
@@ -70,6 +73,8 @@ p {
 main{
     padding-left: 31px;
     padding-right: 31px;
+    display: flex;
+    justify-content: space-between;
 }
 footer{
     background: #00669F;
